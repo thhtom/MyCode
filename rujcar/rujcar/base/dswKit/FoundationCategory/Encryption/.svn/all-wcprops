@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption
+END
+DESUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/DESUtility.h
+END
+NSData+Encryption.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/NSData+Encryption.h
+END
+NSString+Encry.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/NSString+Encry.h
+END
+DESUtility.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/DESUtility.m
+END
+NSData+Encryption.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/NSData+Encryption.m
+END
+NSString+Encry.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/FoundationCategory/Encryption/NSString+Encry.m
+END

@@ -1,0 +1,26 @@
+from __future__ import print_function
+import sys
+import os
+
+
+def usage():
+    print('[-] Usage:python check_file.py [filename1] [filename2] ... [filenameN]')
+
+def readfile  (filename):
+
+    with open(filename,'r') as f:
+        file = f.read()
+    print(file)
+    print()
+    print('#'*80)
+    print()
+
+def main():
+
+    if length(sys.argv)>=2:
+      filenames = sys.argv[1:]
+      filteredfilenames_1 = list(filenames)
+      filteredfilenames_2 = list(filenames)
+
+      for filename in filteredfilenames_1:
+          if not os.path.isfile

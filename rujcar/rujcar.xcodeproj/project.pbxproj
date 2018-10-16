@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256CBCCC2150ACA900C95349 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256CBCCA2150ACA900C95349 /* HomeViewController.m */; };
+		256CBCCD2150ACA900C95349 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256CBCCB2150ACA900C95349 /* HomeViewController.xib */; };
+		256CBCD62150AF8300C95349 /* brandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256CBCD52150AF8300C95349 /* brandView.m */; };
+		256CBCD92150AFA700C95349 /* brandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 256CBCD82150AFA700C95349 /* brandModel.m */; };
+		25E4406B214F763A0013C2B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4406A214F763A0013C2B2 /* AppDelegate.m */; };
+		25E4406E214F763A0013C2B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4406D214F763A0013C2B2 /* ViewController.m */; };
+		25E44071214F763A0013C2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E4406F214F763A0013C2B2 /* Main.storyboard */; };
+		25E44073214F763C0013C2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E44072214F763C0013C2B2 /* Assets.xcassets */; };
+		25E44076214F763C0013C2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E44074214F763C0013C2B2 /* LaunchScreen.storyboard */; };
+		25E44079214F763C0013C2B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E44078214F763C0013C2B2 /* main.m */; };
+		25E44083214F763C0013C2B2 /* rujcarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E44082214F763C0013C2B2 /* rujcarTests.m */; };
+		25E4408E214F763C0013C2B2 /* rujcarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4408D214F763C0013C2B2 /* rujcarUITests.m */; };
+		25E440A9214F83110013C2B2 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E440A6214F83110013C2B2 /* BaseTabBarController.m */; };
+		25E440AA214F83110013C2B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E440A8214F83110013C2B2 /* BaseViewController.m */; };
+		25E440AE214F84D10013C2B2 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E440AD214F84D10013C2B2 /* common.m */; };
+		7E3F66A19F58B51F4DB7B6CD /* libPods-rujcarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F56D4706800E3E1FF4B6F52 /* libPods-rujcarTests.a */; };
+		820D83EB309AB5F081C28FE4 /* libPods-rujcar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E92C78DEAA7A266F200486 /* libPods-rujcar.a */; };
+		F8A4396E4F921344137F67AE /* libPods-rujcarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3B7DBD0EF8CC091021DBF3 /* libPods-rujcarUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E4407F214F763C0013C2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E4405E214F763A0013C2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E44065214F763A0013C2B2;
+			remoteInfo = rujcar;
+		};
+		25E4408A214F763C0013C2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E4405E214F763A0013C2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E44065214F763A0013C2B2;
+			remoteInfo = rujcar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174BFE563F1E25F1FC215AE7 /* Pods-rujcarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rujcarTests/Pods-rujcarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		256CBCC92150ACA900C95349 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		256CBCCA2150ACA900C95349 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		256CBCCB2150ACA900C95349 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		256CBCD42150AF8300C95349 /* brandView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brandView.h; sourceTree = "<group>"; };
+		256CBCD52150AF8300C95349 /* brandView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = brandView.m; sourceTree = "<group>"; };
+		256CBCD72150AFA700C95349 /* brandModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brandModel.h; sourceTree = "<group>"; };
+		256CBCD82150AFA700C95349 /* brandModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = brandModel.m; sourceTree = "<group>"; };
+		25E44066214F763A0013C2B2 /* rujcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rujcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E44069214F763A0013C2B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25E4406A214F763A0013C2B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25E4406C214F763A0013C2B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25E4406D214F763A0013C2B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25E44070214F763A0013C2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25E44072214F763C0013C2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25E44075214F763C0013C2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25E44077214F763C0013C2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E44078214F763C0013C2B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E4407E214F763C0013C2B2 /* rujcarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rujcarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E44082214F763C0013C2B2 /* rujcarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rujcarTests.m; sourceTree = "<group>"; };
+		25E44084214F763C0013C2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E44089214F763C0013C2B2 /* rujcarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rujcarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E4408D214F763C0013C2B2 /* rujcarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rujcarUITests.m; sourceTree = "<group>"; };
+		25E4408F214F763C0013C2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E440A5214F83110013C2B2 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		25E440A6214F83110013C2B2 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		25E440A7214F83110013C2B2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		25E440A8214F83110013C2B2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		25E440AB214F83940013C2B2 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		25E440AD214F84D10013C2B2 /* common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
+		25E440AF214F85030013C2B2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2E3B7DBD0EF8CC091021DBF3 /* libPods-rujcarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rujcarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF028D19E3DE645C0DF8129 /* Pods-rujcar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcar.release.xcconfig"; path = "Pods/Target Support Files/Pods-rujcar/Pods-rujcar.release.xcconfig"; sourceTree = "<group>"; };
+		6F56D4706800E3E1FF4B6F52 /* libPods-rujcarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rujcarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8C7C328F018C2D37F3EE2B /* Pods-rujcarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rujcarTests/Pods-rujcarTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF3E6B2DE2AB617FC7C78635 /* Pods-rujcar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rujcar/Pods-rujcar.debug.xcconfig"; sourceTree = "<group>"; };
+		BADE8DCCF18974B24799F54A /* Pods-rujcarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rujcarUITests/Pods-rujcarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDCC964414C7F27F8751F088 /* Pods-rujcarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rujcarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rujcarUITests/Pods-rujcarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6E92C78DEAA7A266F200486 /* libPods-rujcar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rujcar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E44063214F763A0013C2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820D83EB309AB5F081C28FE4 /* libPods-rujcar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4407B214F763C0013C2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3F66A19F58B51F4DB7B6CD /* libPods-rujcarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E44086214F763C0013C2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A4396E4F921344137F67AE /* libPods-rujcarUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256CBCC82150AC6D00C95349 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				256CBCD02150AEF600C95349 /* model */,
+				256CBCCF2150AECD00C95349 /* view */,
+				256CBCCE2150AEBD00C95349 /* VC */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		256CBCCE2150AEBD00C95349 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				256CBCC92150ACA900C95349 /* HomeViewController.h */,
+				256CBCCA2150ACA900C95349 /* HomeViewController.m */,
+				256CBCCB2150ACA900C95349 /* HomeViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		256CBCCF2150AECD00C95349 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				256CBCD42150AF8300C95349 /* brandView.h */,
+				256CBCD52150AF8300C95349 /* brandView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		256CBCD02150AEF600C95349 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				256CBCD72150AFA700C95349 /* brandModel.h */,
+				256CBCD82150AFA700C95349 /* brandModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		25E4405D214F763A0013C2B2 = {
+			isa = PBXGroup;
+			children = (
+				25E44068214F763A0013C2B2 /* rujcar */,
+				25E44081214F763C0013C2B2 /* rujcarTests */,
+				25E4408C214F763C0013C2B2 /* rujcarUITests */,
+				25E44067214F763A0013C2B2 /* Products */,
+				C9F25166CE85CC758C8A1829 /* Pods */,
+				F9D3963E3E64F00A85452B61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25E44067214F763A0013C2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E44066214F763A0013C2B2 /* rujcar.app */,
+				25E4407E214F763C0013C2B2 /* rujcarTests.xctest */,
+				25E44089214F763C0013C2B2 /* rujcarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E44068214F763A0013C2B2 /* rujcar */ = {
+			isa = PBXGroup;
+			children = (
+				256CBCC82150AC6D00C95349 /* home */,
+				25E440A4214F83110013C2B2 /* base */,
+				25E44069214F763A0013C2B2 /* AppDelegate.h */,
+				25E4406A214F763A0013C2B2 /* AppDelegate.m */,
+				25E4406C214F763A0013C2B2 /* ViewController.h */,
+				25E4406D214F763A0013C2B2 /* ViewController.m */,
+				25E4406F214F763A0013C2B2 /* Main.storyboard */,
+				25E44072214F763C0013C2B2 /* Assets.xcassets */,
+				25E44074214F763C0013C2B2 /* LaunchScreen.storyboard */,
+				25E44077214F763C0013C2B2 /* Info.plist */,
+				25E44078214F763C0013C2B2 /* main.m */,
+			);
+			path = rujcar;
+			sourceTree = "<group>";
+		};
+		25E44081214F763C0013C2B2 /* rujcarTests */ = {
+			isa = PBXGroup;
+			children = (
+				25E44082214F763C0013C2B2 /* rujcarTests.m */,
+				25E44084214F763C0013C2B2 /* Info.plist */,
+			);
+			path = rujcarTests;
+			sourceTree = "<group>";
+		};
+		25E4408C214F763C0013C2B2 /* rujcarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25E4408D214F763C0013C2B2 /* rujcarUITests.m */,
+				25E4408F214F763C0013C2B2 /* Info.plist */,
+			);
+			path = rujcarUITests;
+			sourceTree = "<group>";
+		};
+		25E440A4214F83110013C2B2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				25E440A5214F83110013C2B2 /* BaseTabBarController.h */,
+				25E440A6214F83110013C2B2 /* BaseTabBarController.m */,
+				25E440A7214F83110013C2B2 /* BaseViewController.h */,
+				25E440A8214F83110013C2B2 /* BaseViewController.m */,
+				25E440AB214F83940013C2B2 /* common.h */,
+				25E440AD214F84D10013C2B2 /* common.m */,
+				25E440AF214F85030013C2B2 /* PrefixHeader.pch */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		C9F25166CE85CC758C8A1829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E6B2DE2AB617FC7C78635 /* Pods-rujcar.debug.xcconfig */,
+				3DF028D19E3DE645C0DF8129 /* Pods-rujcar.release.xcconfig */,
+				174BFE563F1E25F1FC215AE7 /* Pods-rujcarTests.debug.xcconfig */,
+				7A8C7C328F018C2D37F3EE2B /* Pods-rujcarTests.release.xcconfig */,
+				BADE8DCCF18974B24799F54A /* Pods-rujcarUITests.debug.xcconfig */,
+				DDCC964414C7F27F8751F088 /* Pods-rujcarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9D3963E3E64F00A85452B61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E92C78DEAA7A266F200486 /* libPods-rujcar.a */,
+				6F56D4706800E3E1FF4B6F52 /* libPods-rujcarTests.a */,
+				2E3B7DBD0EF8CC091021DBF3 /* libPods-rujcarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E44065214F763A0013C2B2 /* rujcar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E44092214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcar" */;
+			buildPhases = (
+				FA6EB4A11BE8AD1951D223F9 /* [CP] Check Pods Manifest.lock */,
+				25E44062214F763A0013C2B2 /* Sources */,
+				25E44063214F763A0013C2B2 /* Frameworks */,
+				25E44064214F763A0013C2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rujcar;
+			productName = rujcar;
+			productReference = 25E44066214F763A0013C2B2 /* rujcar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E4407D214F763C0013C2B2 /* rujcarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E44095214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcarTests" */;
+			buildPhases = (
+				B4AD7E82AA9CA072F80CC801 /* [CP] Check Pods Manifest.lock */,
+				25E4407A214F763C0013C2B2 /* Sources */,
+				25E4407B214F763C0013C2B2 /* Frameworks */,
+				25E4407C214F763C0013C2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E44080214F763C0013C2B2 /* PBXTargetDependency */,
+			);
+			name = rujcarTests;
+			productName = rujcarTests;
+			productReference = 25E4407E214F763C0013C2B2 /* rujcarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25E44088214F763C0013C2B2 /* rujcarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E44098214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcarUITests" */;
+			buildPhases = (
+				D94FF5AE91906F31146F7FDE /* [CP] Check Pods Manifest.lock */,
+				25E44085214F763C0013C2B2 /* Sources */,
+				25E44086214F763C0013C2B2 /* Frameworks */,
+				25E44087214F763C0013C2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E4408B214F763C0013C2B2 /* PBXTargetDependency */,
+			);
+			name = rujcarUITests;
+			productName = rujcarUITests;
+			productReference = 25E44089214F763C0013C2B2 /* rujcarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E4405E214F763A0013C2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = TOM;
+				TargetAttributes = {
+					25E44065214F763A0013C2B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					25E4407D214F763C0013C2B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 25E44065214F763A0013C2B2;
+					};
+					25E44088214F763C0013C2B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 25E44065214F763A0013C2B2;
+					};
+				};
+			};
+			buildConfigurationList = 25E44061214F763A0013C2B2 /* Build configuration list for PBXProject "rujcar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E4405D214F763A0013C2B2;
+			productRefGroup = 25E44067214F763A0013C2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E44065214F763A0013C2B2 /* rujcar */,
+				25E4407D214F763C0013C2B2 /* rujcarTests */,
+				25E44088214F763C0013C2B2 /* rujcarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E44064214F763A0013C2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E44076214F763C0013C2B2 /* LaunchScreen.storyboard in Resources */,
+				25E44073214F763C0013C2B2 /* Assets.xcassets in Resources */,
+				25E44071214F763A0013C2B2 /* Main.storyboard in Resources */,
+				256CBCCD2150ACA900C95349 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4407C214F763C0013C2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E44087214F763C0013C2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4AD7E82AA9CA072F80CC801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rujcarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94FF5AE91906F31146F7FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rujcarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6EB4A11BE8AD1951D223F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rujcar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E44062214F763A0013C2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256CBCD62150AF8300C95349 /* brandView.m in Sources */,
+				25E440A9214F83110013C2B2 /* BaseTabBarController.m in Sources */,
+				25E440AA214F83110013C2B2 /* BaseViewController.m in Sources */,
+				25E440AE214F84D10013C2B2 /* common.m in Sources */,
+				256CBCD92150AFA700C95349 /* brandModel.m in Sources */,
+				25E4406E214F763A0013C2B2 /* ViewController.m in Sources */,
+				25E44079214F763C0013C2B2 /* main.m in Sources */,
+				256CBCCC2150ACA900C95349 /* HomeViewController.m in Sources */,
+				25E4406B214F763A0013C2B2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4407A214F763C0013C2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E44083214F763C0013C2B2 /* rujcarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E44085214F763C0013C2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4408E214F763C0013C2B2 /* rujcarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E44080214F763C0013C2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E44065214F763A0013C2B2 /* rujcar */;
+			targetProxy = 25E4407F214F763C0013C2B2 /* PBXContainerItemProxy */;
+		};
+		25E4408B214F763C0013C2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E44065214F763A0013C2B2 /* rujcar */;
+			targetProxy = 25E4408A214F763C0013C2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25E4406F214F763A0013C2B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E44070214F763A0013C2B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25E44074214F763C0013C2B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E44075214F763C0013C2B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E44090214F763C0013C2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		25E44091214F763C0013C2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E44093214F763C0013C2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3E6B2DE2AB617FC7C78635 /* Pods-rujcar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YS35RHDY9;
+				INFOPLIST_FILE = rujcar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25E44094214F763C0013C2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF028D19E3DE645C0DF8129 /* Pods-rujcar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YS35RHDY9;
+				INFOPLIST_FILE = rujcar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25E44096214F763C0013C2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174BFE563F1E25F1FC215AE7 /* Pods-rujcarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rujcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rujcar.app/rujcar";
+			};
+			name = Debug;
+		};
+		25E44097214F763C0013C2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8C7C328F018C2D37F3EE2B /* Pods-rujcarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rujcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rujcar.app/rujcar";
+			};
+			name = Release;
+		};
+		25E44099214F763C0013C2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADE8DCCF18974B24799F54A /* Pods-rujcarUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rujcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rujcar;
+			};
+			name = Debug;
+		};
+		25E4409A214F763C0013C2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCC964414C7F27F8751F088 /* Pods-rujcarUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rujcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bfd.com.rujcarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rujcar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E44061214F763A0013C2B2 /* Build configuration list for PBXProject "rujcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E44090214F763C0013C2B2 /* Debug */,
+				25E44091214F763C0013C2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E44092214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E44093214F763C0013C2B2 /* Debug */,
+				25E44094214F763C0013C2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E44095214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E44096214F763C0013C2B2 /* Debug */,
+				25E44097214F763C0013C2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E44098214F763C0013C2B2 /* Build configuration list for PBXNativeTarget "rujcarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E44099214F763C0013C2B2 /* Debug */,
+				25E4409A214F763C0013C2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E4405E214F763A0013C2B2 /* Project object */;
+}

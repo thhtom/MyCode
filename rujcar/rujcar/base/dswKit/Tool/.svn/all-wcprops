@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hrcfu/!svn/ver/2527/branchios/qtyd/Classes/dswKit/Tool
+END
+DDebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/DDebug.h
+END
+DLog.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/DLog.m
+END
+OpenUDID.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/OpenUDID.m
+END
+IPHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/IPHelper.m
+END
+AppUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hrcfu/!svn/ver/2527/branchios/qtyd/Classes/dswKit/Tool/AppUtil.h
+END
+DSandBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/DSandBox.h
+END
+AppUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/hrcfu/!svn/ver/2527/branchios/qtyd/Classes/dswKit/Tool/AppUtil.m
+END
+DLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/DLog.h
+END
+DSandBox.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/DSandBox.m
+END
+OpenUDID.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/OpenUDID.h
+END
+IPHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/Tool/IPHelper.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/ViewController/SafeTransition
+END
+APBaseNavigationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/ViewController/SafeTransition/APBaseNavigationController.h
+END
+UIViewController+APSafeTransition.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/ViewController/SafeTransition/UIViewController+APSafeTransition.h
+END
+APBaseNavigationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/ViewController/SafeTransition/APBaseNavigationController.m
+END
+UIViewController+APSafeTransition.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/hrcfu/!svn/ver/1671/branchios/qtyd/Classes/dswKit/ViewController/SafeTransition/UIViewController+APSafeTransition.m
+END
