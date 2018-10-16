@@ -1,0 +1,32 @@
+.section_view{
+  width: 100%;
+  height: 150rpx;
+  margin:  35rpx 35rpx 0rpx 35rpx;
+}
+.tv_msg{
+  font-size: 32rpx;
+  margin-left: 10rpx;
+}
+.input{
+  width: 88%;
+  height: 80rpx;
+  background: #F1F1F1;
+  margin-top: 10rpx;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+}
+#view{
+  width: 100%;
+  height: 150rpx;
+}
+#float_sub{
+  width: 100%;
+  height: 100rpx;
+  background: yellow;
+  position: fixed;
+  z-index: 9999999;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+  line-height: 100rpx;
+}

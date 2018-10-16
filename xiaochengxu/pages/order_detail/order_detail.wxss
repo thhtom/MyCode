@@ -1,0 +1,93 @@
+/* pages/order_detail/order_detail.wxss */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.placeholder{
+  width: 100%;
+  height: 20rpx;
+  background: #EBEBEB;
+  position: relative;
+}
+.group_view{
+  width: 100%;
+  height: 120rpx;
+  
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 28rpx;
+  margin-top: 40rpx;
+}
+.guoup_msg{
+  margin-left: 15rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  position: absolute;
+  font-weight: 600
+}
+.msg_view{
+  width: 100%;
+  height: 80rpx;
+}
+.left{
+  float: left;
+  margin-left: 40rpx;
+  color: #333333;
+  font-size: 34rpx;
+}
+.right{
+  float: right;
+  margin-right: 40rpx;
+  color: #999999;
+  font-size: 34rpx;
+}
+#car_img{
+  display: block;
+  margin: 0 auto;  
+  width: 550rpx;
+  height: 366rpx;
+}
+
+#car_view{
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  height: 90rpx;
+  line-height: 45rpx;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  text-align: center
+}
+#car_name{
+  color: #333333;
+  font-size: 32rpx;
+}
+#bottom_view{
+  width: 100%;
+  height: 200rpx;
+}
+
+.show_msg_view{
+   width: 100%;
+  height: 65rpx;
+}
+.show_left{
+  float: left;
+  margin-left: 66rpx;
+  color: #999999;
+  font-size: 30rpx;
+}
+.show_right{
+  float: right;
+  margin-right: 75rpx;
+  color: #999999;
+  font-size: 30rpx;
+}
+#show_none{
+  width: 100%;
+  height: 260rpx;
+}

@@ -1,0 +1,42 @@
+<!--pages/login/login.wxml-->
+<view class='root'>
+  <view id='view_logo'>
+    <view>
+      <image id='icon' src='../../image/logo.png'></image>
+    </view>
+    <view>
+      <text id='msg'>如今购车,上如鲸 !</text>
+    </view>
+  </view>
+  <view id='view_input'>
+    <view class="section_view">
+      <input type="number" maxlength="11" name="u_phone" placeholder="请输入手机号" id="phone" bindinput="phone" />
+    </view>
+    <view class="section_view">
+      <view id='code_view'>
+        <input type="number" maxlength="4" name="u_code" placeholder="请输入验证码" id="code" bindinput="code" />
+      </view>
+      <view id='view_right'>
+        <button id='btn_code' bindtap='get_code'>{{getmsg}}</button>
+      </view>
+    </view>
+    <view id='check_box'>
+      <checkbox-group class="group" bindchange="checkboxChange">
+        <view class="label" wx:key="{{*.this}}" wx:for="{{checkboxItems}}">
+          <label>
+            <view id='agreement_view'>
+              <checkbox id='c_box' value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            </view>
+          </label>
+          <view id='right'>
+          <text id='read'>我已阅读并同意</text>
+          <text id="agreement" bindtap='check_agreement'>《如鲸用户注册协议》</text>
+          </view>
+        </view>
+      </checkbox-group>
+    </view>
+
+    <button id='login' bindtap='login'>登录</button>
+
+  </view>
+</view>

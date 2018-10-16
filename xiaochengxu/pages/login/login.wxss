@@ -1,0 +1,102 @@
+/* pages/login/login.wxss */
+.root{
+  width: 100%;
+}
+#icon{
+  width: 180rpx;
+  height: 180rpx;
+  text-align: center;
+  margin-top: 100rpx;
+}
+#view_input{
+  width: 100%;
+}
+#view_logo{
+  width: 100%;
+  text-align: center;
+}
+#msg{
+  font-size: 38rpx;
+}
+
+
+.label{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 30rpx;
+}
+
+#agreement_view{
+  width: 10%;
+  height: 80rpx;
+  float: left;
+  margin-bottom: 30rpx;
+  margin-left: 5%
+}
+#right{
+ width: 85%;
+ height: 80rpx;
+ float: right;
+ line-height: 80rpx;
+}
+#read{
+  font-size: 30rpx;
+}
+#agreement{
+  color: #61BEFF;
+  font-size: 30rpx;
+}
+
+
+.section_view{
+  width: 90%;
+  height: 90rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#phone{
+  width: 95%;
+  height: 90rpx;
+  padding-left: 5%;
+  background: #FAFAFA;
+  font-size: 30rpx;
+}
+#code_view{
+  width: 60%;
+  height: 90rpx;
+  float: left;
+  line-height: 90rpx;
+  background: #FAFAFA
+  
+}
+
+#code{
+  height: 90rpx;
+  padding-left: 5%;
+  line-height: 90rpx;
+  font-size: 30rpx;
+}
+#view_right{
+   width: 40%;
+   height: 90rpx;
+   float: right;
+}
+
+#btn_code{
+  width: 60%;
+  height: 80rpx;
+  margin-top: 5rpx;
+  line-height: 80rpx;
+  background: yellow;
+  font-size: 28rpx;
+}
+
+#login{
+  clear: both;
+  background: yellow;
+  border-radius: 5rpx;
+  margin:80rpx 40rpx 0rpx 40rpx;
+}

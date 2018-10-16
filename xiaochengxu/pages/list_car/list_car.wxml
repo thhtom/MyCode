@@ -1,0 +1,26 @@
+<!--pages/list_car/list_car.wxml-->
+<view>
+  <view class="car" wx:for="{{car_list}}" wx:key="{{work}}" wx:for-item="item">
+    <view class='car_list' bindtap='item_click' id='{{item.id}}'>
+      <image id='car_img' src="{{img_url}}{{item.pic_url}}" mode='widthFix'></image>
+      <br/>
+      <text id='car_name'>{{item.title}}</text>
+      <view id='bottm'>
+
+        <view id='bottom_left'>
+          <text id='guide_price'>官方指导价{{item.price_market}}万</text>
+          <view>
+            <text id='fir_money'>首付{{item.fir_apply}}万</text>
+            <text id='month_money'>月供{{item.mon_apply}}元</text>
+          </view>
+        </view>
+        <view id='bottom_right'>
+          <view id='submit'>
+            <text id='btn'>立即预约</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view id='margin_bottom_view'></view>
+  </view>
+</view>

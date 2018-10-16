@@ -1,0 +1,7 @@
+<!--pages/newsmsg/newsmsg.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view id='root'>
+<view class="wxParse">
+  <template is="wxParse"  data="{{wxParseData:article.nodes}}" />
+</view>
+</view>

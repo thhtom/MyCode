@@ -1,0 +1,99 @@
+/* pages/home/home.wxss */
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.block {
+  margin: 20rpx 20rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.bananer{
+  width: 100%;
+}
+
+.group_list {
+  width: 100%;
+  height: 50px;
+  margin: 25rpx 0rpx 25rpx 0rpx;
+  background-color: #ffea4a;
+  border-radius: 45px;
+}
+
+
+.group_name {
+  height: 50px;
+  margin-left: 45rpx;
+  line-height: 50px;
+  text-align: center;
+}
+
+.more {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  margin: 3px;
+  font-size: 30rpx;
+  float: right;
+  clear:both;
+  text-align: center;
+  position: relative;
+}
+#more_img{
+  width: 44px;
+  height: 44px;
+}
+.more_tv{
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  font-size: 24rpx;
+  left: 0rpx;
+  top: 0rpx;
+}
+
+
+.group_item{
+  width: 100%;
+  margin: 25rpx 0rpx 25rpx 0rpx;
+}
+
+.icon {
+  width: 40%;
+  float: left;
+  margin-right: 25rpx;
+  position: relative;
+}
+
+
+
+item_view{
+  width: 60%;
+  float: right;
+}
+.item_name {
+  height: 120rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+  display:block;
+  font-size: 28rpx;
+}
+.tv_view{
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.fir_payment {
+  color:#FF2B01;
+  clear:both;
+  font-size: 24rpx;
+}
+
+.month_payment {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+} 
+
+

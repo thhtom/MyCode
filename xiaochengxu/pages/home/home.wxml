@@ -1,0 +1,36 @@
+<!--pages/home/home.wxml-->
+<!--banner广告区域-->
+<view class="page-section page-section-spacing swiper">
+  <swiper class='swiper' style="width:{{view.Width}}px;height:{{view.Height}}px;" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image class='bananer' bindtap='item' src='{{item}}' mode='widthFix'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view>
+    <view class="block" wx:for="{{list}}" wx:key="{{id}}" wx:for-item="item">
+      <view class='group_list' wx:if="{{item.isgroup==true}}">
+        <text class="group_name">{{item.group_name}}</text>
+        <view class='more' >
+          <image id='more_img' src='../../image/more.png'></image>
+          <text class='more_tv' bindtap='more' id="{{item.group_id}}">更多></text>
+        </view>
+      </view>
+      <view class='group_item' bindtap='car_detail' id="{{item.id}}" wx:else>
+       
+        <image class='icon' src="{{item.pic_url}}" mode="widthFix"></image>
+        <view class='item_view'>
+          <text class='item_name'>{{item.title}}</text>
+          <view class='tv_view'>
+            <text class='fir_payment'>首付{{item.fir_apply}}万</text>
+            <text class='month_payment'>月供{{item.mon_apply}}元</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

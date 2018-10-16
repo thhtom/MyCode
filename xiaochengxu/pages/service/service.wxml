@@ -1,0 +1,39 @@
+<!--pages/service/service.wxml-->
+  <view class="second line">
+        <view class="sl-col" bindtap='calculator'>
+             <image class="second-img" mode="scaleToFill" src="../../image/serve_calculator.png"></image>
+             <text>分期计算器</text>
+        </view>
+        <view class="sl-col" bindtap='news'>
+            <image class="second-img" mode="scaleToFill" src="../../image/serve_news.png"></image>
+            <text>汽车资讯</text>
+        </view>
+        <view class="sl-col" bindtap='problem'>
+             <image class="second-img" mode="scaleToFill" src="../../image/serve_problem.png"></image>
+            <text>常见问题</text>
+        </view>
+    </view>
+
+    <!-- <view class="second line">
+        <view class="sl-col">
+             <image class="second-img" mode="scaleToFill" src="../../image/serve_news.png"></image>
+             <text>保险服务</text>
+        </view>
+        <view class="sl-col">
+            <image class="second-img" mode="scaleToFill" src="../../image/serve_news.png"></image>
+            <text>维修保养</text>
+        </view>
+        <view class="sl-col">
+             <image class="second-img" mode="scaleToFill" src="../../image/serve_news.png"></image>
+            <text>违章查询</text>
+        </view>
+    </view> -->
+
+    <view class='header'>
+      <image class='headerImg' src='../../image/serve_section_bg.png'></image>
+      <text class='headerTitle'>购车流程</text>
+    </view>
+
+    <image class='content' mode='widthFix' src='../../image/serve_home.png'></image>
+
+    <view class='bottom'></view>

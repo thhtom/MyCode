@@ -1,0 +1,4 @@
+<!--pages/sex/sex.wxml-->
+<button class='man' bindtap='manClick' style='background-color:{{manColor}}'>男</button>
+<button class='woman' bindtap='womanClick' style='background-color:{{womanColor}}'>女</button>
+<button class='save' bindtap='saveClick'>保存</button>

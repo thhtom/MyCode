@@ -1,0 +1,239 @@
+/* pages/car_detail/car_detail.wxss */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+
+
+.bananer {
+  width: 100%;
+}
+
+.car_name {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 46rpx;
+  font-size: 32rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  display: block;
+}
+
+.fir_stage {
+  margin-left: 40rpx;
+  font-size: 28rpx;
+  color: #ff2b01;
+}
+
+.guide_price {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  font-size: 22rpx;
+}
+
+#money_detail {
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.money_view_left {
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.money_view_right {
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+
+.tv_view {
+  font-size: 28rpx;
+}
+
+
+.money_view {
+  color: #ff2b01;
+  font-size: 44rpx;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tag_left {
+  margin-left: 49rpx;
+  margin-top: 20rpx;
+}
+
+#first_seek {
+  margin-left: 60rpx;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+}
+
+#month_seek {
+  margin-left: 60rpx;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+}
+
+.lote {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+.light {
+  width: 100%;
+}
+
+.view_gray {
+  width: 100%;
+  height: 10px;
+  background: #ebebeb;
+  margin-top: 20rpx;
+  margin-bottom: 15rpx;
+}
+
+#light_list {
+  text-align: center;
+  width: 100%;
+}
+
+#light_img {
+  width: 90%;
+}
+
+.deploy {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+
+#deploy_key {
+  float: left;
+  height: 90rpx;
+  margin-left: 40rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+#deploy_value {
+  height: 90rpx;
+  margin-right: 40rpx;
+  float: right;
+  font-size: 24rpx;
+  color: #333;
+}
+
+#all_deploy_view {
+  width: 100%;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+
+#all_deploy {
+  font-size: 28rpx;
+  color: #61beff;
+}
+
+.other_item{
+  width: 100%;
+  height: 200rpx;
+  margin: 25rpx 25rpx 25rpx 25rpx;
+}
+.icon{
+  width: 40%;
+  clear:both;
+  float: left;
+}
+.item_view{
+  width: 60%;
+  float: right;
+}
+.item_name {
+  height: 120rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+  display:block;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  margin-right: 50rpx
+}
+.tv_view{
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left: 20rpx;
+  margin-right: 50rpx;
+}
+.fir_payment {
+  color:#FF2B01;
+  clear:both;
+  font-size: 24rpx;
+}
+
+.month_payment {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+} 
+
+.bottom_menu{
+  width:100%;
+  height: 100rpx;
+  position: fixed;
+  z-index: 9999999;
+  bottom:0px;
+  left:0px;
+}
+#menu_left{
+  width: 50%;
+  height: 100rpx;
+  text-align: center;
+  float: left;
+  line-height: 100rpx;
+  background: #eeeeee
+}
+#menu_right{
+  width: 50%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  float: right;
+  background: yellow
+}
+#bottom_menu_left{
+  width: 50%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 40rpx;
+}
+#bottom_menu_right{
+  width: 50%;
+  height: 80rpx;
+  float: right;
+  text-align: center;
+  line-height: 40rpx;
+}
+.icon_menu{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx 0rpx 0rpx 0rpx;
+
+}
+.tv{
+  color: #333333;
+  font-size: 24rpx;
+  margin-top: 0rpx;
+  margin-bottom: 10rpx;
+}

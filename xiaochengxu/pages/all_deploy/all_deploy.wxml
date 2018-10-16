@@ -1,0 +1,22 @@
+<!--pages/all_deploy/all_deploy.wxml-->
+<view>
+  <view class="deploy" wx:for="{{deploy_list}}" wx:key="{{key}}" wx:for-item="item">
+    <view id='list_group' wx:if="{{item.is_group==true}}">
+      <view>
+        <text class='deploy_key'>{{item.key}}</text>
+        <text class='deploy_value'>{{item.value}}</text>
+      </view>
+
+    </view>
+    <view id='list_item' wx:else>
+      <view>
+        <text class='deploy_key'>{{item.key}}</text>
+        <text class='deploy_value'>{{item.value}}</text>
+      </view>
+    </view>
+
+  </view>
+  <view id='bottom'>
+    <text id='bottom_tv'>以上参数配置信息仅供参考，具体参数配置信息以店内销售车辆为准，最终解释权归如鲸购车所有。</text>
+  </view>
+</view>

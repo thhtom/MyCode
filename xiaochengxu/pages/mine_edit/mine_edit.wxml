@@ -1,0 +1,17 @@
+<!--pages/mine_edit/mine_edit.wxml-->
+<view class='top'>
+  <text class='name'>{{name}}</text>
+  <image class='header' src='{{header}}' bindtap='headerClick'></image>
+</view>
+
+<view class='lineView'></view>
+
+<view class='listView' wx:for="{{list}}" wx:key="id">    
+  <view class='cell' bindtap='cellClick' id='{{item.tag}}'>
+    <text class='title'>{{item.title}}</text>
+    <text class='content'>{{item.content}}</text>
+    <image class='arrow' src='../../image/arrow_right.png' style='display:{{item.show}}'></image>
+  </view>
+</view>
+
+<button class='logout' bindtap='logout'>退出登录</button>

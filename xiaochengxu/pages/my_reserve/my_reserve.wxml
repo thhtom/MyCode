@@ -1,0 +1,31 @@
+<!-- topView -->
+<view class='top' style='display:{{show}}'>
+  <text class='topTitle'>预约成功后，我们的工作人员将于48小时之内联系您</text>
+  <image class='cancel' src='../../image/cancel_red.png' bindtap='cancelClick'></image>
+</view>
+
+<view class='topLine'></view>
+
+<!-- listView -->
+<view wx:for="{{list}}" wx:key="*.this">
+  <view class='bg' style='height:{{item.height}}rpx'>
+    <view class='content' bindtap='itemClick' id='{{item.id}}'>
+      <view class='statusView'>
+        <text class='time'>{{item.time}}</text>
+        <text class='statusTitle'>{{item.statusTitle}}</text>
+        <image class='statusImg' src='{{item.statusImg}}'></image>
+      </view>
+      <view class='centerView'>
+        <image class='img' src='{{item.img}}'></image>
+        <text class='title'>{{item.title}}</text>
+        <text class='city'>{{item.city}}</text>
+      </view>
+      <view class='bottomView' style='display:{{item.show}}'>
+        <button class='leftBtn' catchtap='leftClick' style='display:{{item.leftShow}}; right:{{item.right}}rpx'>{{item.leftTitle}}</button>
+        <button class='rightBtn' catchtap='rightClick' style='display:{{item.rightShow}}' id='{{item.index}}'>{{item.rightTitle}}</button>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='bottomLine'></view>

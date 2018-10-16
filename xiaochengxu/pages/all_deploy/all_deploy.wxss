@@ -1,0 +1,49 @@
+/* pages/all_deploy/all_deploy.wxss */
+
+#list_group {
+  background: #fff;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+#list_item {
+  background: #fafafa;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.deploy_key {
+  width: 55%;
+  padding-left: 5%;
+  float: left;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.deploy_value {
+  width: 35%;
+  font-size: 24rpx;
+  padding-right: 5%;
+  float: right;
+  text-align: right;
+  color: #333;
+}
+
+#bottom {
+  height: 120rpx;
+  width: 100%;
+  text-align: center;
+}
+
+#bottom_tv {
+  clear: both;
+  display:block;
+  width: 80%;
+  margin:0 auto;
+  color: #999;
+  height: 120rpx;
+  line-height: 60rpx;
+  font-size: 22rpx;
+}

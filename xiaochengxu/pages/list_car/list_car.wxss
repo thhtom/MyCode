@@ -1,0 +1,80 @@
+/* pages/list_car/list_car.wxss */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.car {
+  width: 100%;
+}
+
+.car_list {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#car_name {
+  font-size: 32rpx;
+}
+
+#car_img {
+  width: 100%;
+  margin-top: 10rpx;
+}
+
+#bottm {
+  width: 100%;
+  height:120rpx;
+}
+
+#bottom_left {
+  width: 60%;
+  height: 110rpx;
+  float: left;
+}
+
+#bottom_right {
+  width: 40%;
+  float: right;
+  height: 110rpx;
+}
+
+#guide_price {
+  font-size: 28rpx;
+}
+
+#fir_money {
+  color: #ff2b01;
+  font-size: 24rpx;
+}
+
+#month_money {
+  font-size: 24rpx;
+  color: #333;
+  margin-left: 15rpx;
+}
+#btn{
+  line-height: 68rpx;
+  font-size: 28rpx;
+}
+
+#submit{
+  background: #FFE401;
+  width: 70%;
+  height: 68rpx;
+  margin: 0 auto;
+  margin-top: 22rpx;
+  text-align: center
+}
+
+#margin_bottom_view{
+  clear: both;
+  margin-top: 50rpx;
+  width: 100%;
+  height: 15rpx;
+  background: #ebebeb;
+  
+  
+}

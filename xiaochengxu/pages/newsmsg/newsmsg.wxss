@@ -1,0 +1,8 @@
+/* pages/newsmsg/newsmsg.wxss */
+#root{
+  width: 100%;
+}
+.wxParse{
+  width: 90%;
+  margin-left: 5%
+}

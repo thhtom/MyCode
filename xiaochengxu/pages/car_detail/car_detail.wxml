@@ -1,0 +1,122 @@
+<!--pages/car_detail/car_detail.wxml-->
+<view class="root">
+  <swiper class='swiper' style="width:{{view.Width}}px;height:{{view.Height}}px;" indicator-dots="{{indicatorDots}}" autoplay="{                 {autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image class='bananer' src='{{item}}' mode='widthFix'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <text class="car_name">{{title}}</text>
+  <text class="fir_stage">{{fir_stage}}</text>
+  <text class='guide_price'>{{guide_price}}</text>
+  <view style='width:100%;height:1px;background:#EBEBEB;margin-top:20rpx;margin-bottom:15rpx'></view>
+  <view style='width:100%;'>
+    <image style='width:2px;height:22rpx;margin-left:40rpx;background:#FF2B01;'></image>
+    <text id='money_detail' style='width:98%;'>{{guide_price_sum}}</text>
+  </view>
+  <view style='width:100%;height:10px;background:#EBEBEB;margin-top:20rpx;margin-bottom:15rpx'></view>
+  <view style='width:100%;height:120rpx'>
+    <view class='money_view_left'>
+      <view>
+        <text class='tv_view'>首付</text>
+      </view>
+      <view>
+        <text class='money_view'>{{fir_money}}万元</text>
+      </view>
+    </view>
+    <view class='money_view_right'>
+      <view>
+        <text class='tv_view'>月供</text>
+      </view>
+      <view>
+        <text class='money_view'>{{month_money}}元</text>
+      </view>
+    </view>
+  </view>
+
+  <view style='width:100%;height:1px;background:#EBEBEB;margin-top:20rpx;margin-bottom:15rpx'></view>
+  <text class='tag_left'>首付比例</text>
+  <view class="body-view">
+    <slider class='slider' min='0' max="50" step="10" show-value="true" value="{{fir_ratio}}" bindchange="sliderfirchange" id='first_seek' show-value/>
+  </view>
+  <text class='tag_left'>月供期数</text>
+  <view class="body-view">
+    <slider class='slider'  min='24' max="48" step="6" show-value="true" value="{{month_ratio}}" bindchange="slidermonchange" id='month_seek' show-value/>
+  </view>
+
+  <view class='view_gray'></view>
+  <view style='width:100%;text-align: center;margin-top:10rpx;margin-bottom:10rpx'>
+    <image class='lote' src='../../image/lote.png'></image>
+    <text>亮点推荐</text>
+    <image class='lote' src='../../image/lote.png'></image>
+  </view>
+  <view class="light" wx:for="{{light_list}}" wx:key="{{work}}" wx:for-item="item">
+    <view id='light_list'>
+      <image id='light_img' src="{{item.pic_list}}" mode='widthFix'></image>
+      <text id='light_tv'>{{item.word}}</text>
+    </view>
+  </view>
+
+  <view class='view_gray'></view>
+  <view style='width:100%;text-align: center;margin-top:10rpx;margin-bottom:10rpx;'>
+    <image class='lote' src='../../image/lote.png'></image>
+    <text>车辆配置</text>
+    <image class='lote' src='../../image/lote.png'></image>
+  </view>
+  <view class="deploy" wx:for="{{deploy_list}}" wx:key="{{key}}" wx:for-item="item">
+    <view id='deploy_list'>
+      <view>
+        <text id='deploy_key'>{{item.attr_name}}</text>
+        <text id='deploy_value'>{{item.attr_value}}</text>
+      </view>
+      <view style='width:100%;height:1px;background:#EBEBEB;clear:both;'></view>
+    </view>
+  </view>
+  <view bindtap='all_deploy' id='all_deploy_view'>
+    <text id='all_deploy'>查看全部配置></text>
+  </view>
+
+  <view class='view_gray'></view>
+  <view style='width:100%;text-align: center;margin-top:10rpx;margin-bottom:10rpx;'>
+    <image class='lote' src='../../image/lote.png'></image>
+    <text>其他推荐</text>
+    <image class='lote' src='../../image/lote.png'></image>
+  </view>
+  <view wx:for="{{other_list}}" wx:key="{{id}}" wx:for-item="item" bindtap='car_detail' id="{{item.id}}">
+    <view class='other_item'>
+      <image class='icon' src="{{img_url}}{{item.pic_url}}" mode="widthFix"></image>
+      <view class='item_view'>
+        <text class='item_name'>{{item.title}}</text>
+        <view class='tv_view'>
+          <text class='fir_payment'>首付{{item.fir_apply}}万</text>
+          <text class='month_payment'>月供{{item.mon_apply}}元</text>
+        </view>
+      </view>
+    </view>
+    <view style='width:100%;height:1px;background:#EBEBEB;margin-top:20rpx;margin-bottom:20rpx;'></view>
+
+  </view>
+  <view style='width:100%;height:150rpx'></view>
+  <view class='bottom_menu'>
+    <view id='menu_left'>
+      <view id='bottom_menu_left'  bindtap='call'>
+        <view >
+          <image class='icon_menu' src='../../image/call.png'></image>
+        </view>
+        <view>
+          <text class='tv'>电话咨询</text>
+        </view>
+      </view>
+      <view id='bottom_menu_right' bindtap='collect'>
+        <view>
+          <image class='icon_menu' src='{{collect_img}}'></image>
+        </view>
+          <text class='tv'>收藏</text>
+      </view>
+    </view>
+    <view id='menu_right' style='background:{{baakground}}' bindtap='subscribe'>
+      <text>{{subscribe}}</text>
+    </view>
+  </view>
+</view>

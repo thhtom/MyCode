@@ -1,0 +1,21 @@
+<!--pages/order_list/order_list.wxml-->
+
+<view class='order_list' wx:for="{{car_list}}" wx:key="{{work}}" wx:for-item="item"  bindtap='item_click' id='{{item.order_id}}'>
+  <view id='top'>
+    <image id='icon' src='../../image/little_car.png' />
+    <text id='order_id'>NO.{{item.order_sn_id}}</text>
+  </view>
+  <view style='width:90%;height:1px;background:#EBEBEB;margin-left:5%'/>
+  <view id='context'>
+    <image id='img' src="{{img_url}}{{item.pic_url}}" mode='widthFix'/>
+    <view id='context_msg'>
+      <view id='msg_top'>
+        <text id='car_name'>{{item.title}}</text>
+      </view>
+      <view id='bottom'>
+        <text id='data'>{{item.pay_time}}</text>
+        <text id='money'>{{item.price_sum}}元/月</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/my_collection/my_collection.wxml-->
+<view class='bgView'>
+  <view class='list' wx:for="{{list}}" wx:key='id'>
+    <view class='cell' bindtap='cellClick' id='{{item.id}}'>
+      <image class='icon' src='{{item.icon}}'></image>
+      <text class='title'>{{item.title}}</text>
+      <text class='price'>{{item.price}}</text>
+      <image class='cancelImg' style='display:{{show}}' src='{{itme.url}}'></image>
+    </view>
+  </view>
+</view>

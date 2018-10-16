@@ -1,0 +1,41 @@
+<!--pages/mine/mine.wxml-->
+<view>
+
+  <view class='headerBgView'>
+    <image class='headerBgImg' src='../../image/mine_header_bg.png'         mode='widthFix'></image>
+    <!-- <image class='setting' src='../../image/mine_set.png' bindtap='settingClcik'></image>  -->
+    <view class='iconBgView'>
+      <!-- <open-data class="icon" type="userAvatarUrl"></open-data> -->
+      <image class='icon' src='{{header}}'></image>
+    </view>
+    <!-- <open-data class="name" type="userNickName"></open-data> -->
+    <text class='name'>{{name}}</text>
+    <image class='edit' src='../../image/mine_edit.png' bindtap='editClick'></image>
+  </view>
+  
+  <view class='section1'>
+    <view class='list' wx:for="{{list1}}" wx:key="id">
+      <view class='item' mode="widthFix" bindtap='itemClick' id='{{item.tag}}'>
+        <image class='itemImg' src='{{item.icon}}'></image>
+        <text class='itemTitle'>{{item.title}}</text>
+        <image class='arrow' src='../../image/arrow_right.png'></image>
+        <view class='line'></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='section2'>
+    <view class='list' wx:for="{{list2}}" wx:key="id">
+      <view class='item' mode="widthFix" bindtap='item2Click' id='{{item.tag}}'> 
+        <image class='itemImg' src="{{item.icon}}"></image>
+        <text class='itemTitle'>{{item.title}}</text>
+        <image class='arrow' src='../../image/arrow_right.png'></image>
+        <view class='line'></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='bottom'></view>
+       
+
+</view>

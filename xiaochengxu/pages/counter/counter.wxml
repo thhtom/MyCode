@@ -1,0 +1,54 @@
+<!--pages/counter/counter.wxml-->
+<view >
+
+
+  <view id='collect_bar' style='display:{{show}}'>
+    <view class='top' />
+    <view id='collect_msg'>
+      <image id='collect_icon' src='../../image/collect_yellow.png'></image>
+      <text id='collect_tv'>我的收藏</text>
+      <image id='top_bottom' bindtap='top' style='transform: rotate({{rotate}}deg);' src='../../image/top.jpg'></image>
+    </view>
+    <view class='line' />
+  </view>
+
+
+  <view class="collect" style='display:{{collect_list_show}}' wx:for="{{collect_list}}" wx:key="{{work}}" wx:for-item="item">
+    <view class='collect_list' bindtap='item_click' id='{{item.id}}'>
+      <image class='icon' src="{{url}}{{item.img}}" mode="widthFix"></image>
+      <view class='item_view'>
+        <text class='item_name'>{{item.title}}</text>
+      </view>
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <view>
+    <view class='top' />
+    <view id='bottpm_top'>
+      <view style='width:100%;text-align: center;margin-top:10rpx;margin-bottom:10rpx;'>
+        <image class='lote' src='../../image/lote.png'></image>
+        <text>其他推荐</text>
+        <image class='lote' src='../../image/lote.png'></image>
+      </view>
+      <view class='line'></view>
+    </view>
+
+    <view class="collect" wx:for="{{deploy_list}}" wx:key="{{work}}" wx:for-item="item">
+      <view class='collect_list' bindtap='item_click' id='{{item.id}}'>
+        <image class='icon' src="{{url}}{{item.pic_url}}" mode="widthFix"></image>
+        <view class='item_view'>
+          <text class='item_name'>{{item.title}}</text>
+        </view>
+      </view>
+      <view class='line'></view>
+    </view>
+  </view>
+  
+  <view style='height:90rpx'></view>
+
+
+
+
+
+</view>

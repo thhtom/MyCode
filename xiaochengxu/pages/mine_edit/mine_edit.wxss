@@ -1,0 +1,68 @@
+/* pages/mine_edit/mine_edit.wxss */
+.top{
+  height: 348rpx;
+  position: relative;
+}
+
+.name{
+  position: absolute;
+  left: 30rpx;
+  top: 162.rpx;
+  color: rgb(51, 51, 51);
+  font-size: 60rpx;
+}
+
+.header{
+  position: absolute;
+  height: 160rpx;
+  width: 160rpx;
+  top: 110rpx;
+  right: 32rpx;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+
+.lineView{
+  height: 20rpx;
+  background-color: rgba(79, 152, 252, 0.05);
+}
+
+.listView{
+  /* height: 782rpx; */
+}
+
+.cell{
+  position: relative;
+  height: 156rpx;
+}
+
+.title{
+  position: absolute;
+  top: 95rpx;
+  left: 44rpx;
+  color: rgb(51, 51, 51);
+  font-size: 34rpx;
+}
+
+.content{
+  position: absolute;
+  top: 95rpx;
+  right: 76rpx;
+  color: rgb(153, 153, 153);
+  font-size: 34rpx;
+}
+
+.arrow{
+  position: absolute;
+  top: 100rpx;
+  right: 30rpx;
+  width: 18rpx;
+  height: 30rpx;
+}
+
+.logout{
+  margin-top: 200rpx;
+  margin-left: 40rpx;
+  width: 670rpx;
+  background-color: rgb(255, 228, 1);
+}

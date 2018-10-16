@@ -1,0 +1,125 @@
+/* pages/mine/mine.wxss */
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.headerBgView{
+  width: 100%;
+  height: 490rpx;
+  position:relative;
+  /* background-color: red; */
+}
+
+.headerBgImg{
+  width: 100%;
+}
+
+ .setting{
+  width: 21px;
+  height: 21px;
+  position:absolute;
+  left:680rpx;
+  top:15px; 
+} 
+
+.iconBgView{
+  position: absolute;
+  width: 166rpx;
+  height: 166rpx;
+  left: 48rpx;
+  top: 190rpx;
+  background: white;
+  border-radius: 83rpx;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: rgb(255, 228, 1);
+  border-style: solid;
+}
+
+.icon{
+  width: 100%;
+  height: 100%;
+  border-radius: 83rpx;
+  left: 0px;
+  top: 0px;
+}
+
+.name{
+  position: absolute;
+  width: 400rpx;
+  top: 384rpx;
+  left: 20px; 
+  /* text-align: center; */
+}
+
+.edit{
+  position: absolute;
+  width: 88rpx;
+  height: 88rpx;
+  top: 340rpx;
+  right: 80rpx;
+}
+
+.section1{
+  width: 710rpx;
+  margin-left: 20rpx;
+  border-width: 1px;
+  border-color: rgba(79, 152, 252, 0.1);
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.item{
+  position: relative;
+  width: 100%;
+  height: 110rpx;
+}
+
+.itemImg{
+  position: absolute;
+  width: 48rpx;
+  height: 48rpx;
+  left: 25rpx;
+  top: 30rpx;
+}
+
+.itemTitle{
+  position: absolute;
+  left: 95rpx;
+  line-height: 110rpx;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+}
+
+.arrow{
+  position: absolute;
+  width: 18rpx;
+  height: 30rpx;
+  right: 22rpx;
+  top: 40rpx;
+}
+
+.line{
+  position: absolute;
+  left: 5%;
+  bottom: 0px;
+  width: 90%;
+  height: 1px;
+  background-color: rgb(245, 245, 245);
+}
+
+.section2{
+  margin-top: 10px;
+  width: 710rpx;
+  margin-left: 20rpx;
+  border-width: 1px;
+  border-color: rgba(79, 152, 252, 0.1);
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.bottom{
+  height: 20px;
+}

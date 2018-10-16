@@ -1,0 +1,6 @@
+<!--pages/nick_name/nick_name.wxml-->
+<view class='bg'>
+  <input class='name' placeholder='请输入昵称' maxlength='12' bindinput='edit'></input>
+</view>
+
+<button class='save' bindtap='saveClick'>保存</button>

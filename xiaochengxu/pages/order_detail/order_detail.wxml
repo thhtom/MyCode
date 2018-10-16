@@ -1,0 +1,93 @@
+<!--pages/order_detail/order_detail.wxml-->
+<view>
+  <view class='placeholder' />
+  <view class='group_view'>
+    <image class='icon' src='../../image/order_person.png' />
+    <text class='guoup_msg'>下单人信息</text>
+  </view>
+  <view class='msg_view'>
+    <text class='left'>姓名</text>
+    <text class='right'>{{user_name}}</text>
+  </view>
+  <!-- <view class='msg_view'>
+    <text class='left'>身份证号</text>
+    <text class='right'>{{id_card}}</text>
+  </view> -->
+
+  <view class='msg_view'>
+    <text class='left'>手机号</text>
+    <text class='right'>{{mobile}}</text>
+  </view>
+  <view class='placeholder' />
+  <view class='group_view'>
+    <image class='icon' src='../../image/order_msg.png' />
+    <text class='guoup_msg'>订单信息</text>
+  </view>
+  <view class='msg_view'>
+    <text class='left'>订单编号</text>
+    <text class='right'>{{order_id}}</text>
+  </view>
+  <view class='msg_view'>
+    <text class='left'>下单时间</text>
+    <text class='right'>{{order_time}}</text>
+  </view>
+
+  <view class='msg_view'>
+    <text class='left'>订单商品</text>
+    <text class='right'></text>
+  </view>
+  <image id='car_img' src='{{car_img}}'></image>
+  <view id='car_view'>
+    <text id='car_name'>{{title}}</text>
+  </view>
+  <view class='placeholder' />
+  <view class='group_view'>
+    <image class='icon' src='../../image/order_money.png' />
+    <text class='guoup_msg'>订单金额</text>
+  </view>
+  <view class='msg_view' bindtap='show_money'>
+    <text class='left'>提车总费用</text>
+    <view class='right'>
+      <text>{{all_cost }}</text>
+      <image style='width:40rpx;height:20rpx;margin-left:10rpx;transform: rotate({{rotate}}deg);' src='../../image/top.jpg'></image>
+    </view>
+  </view>
+
+  <view id='show_none' style='display:{{show}}'>
+    <view class='show_msg_view'>
+      <text class='show_left'>首付款</text>
+      <text class='show_right'>{{fir_money}}</text>
+    </view>
+    <view class='show_msg_view'>
+      <text class='show_left'>首月租金</text>
+      <text class='show_right'>{{month_money}}</text>
+    </view>
+    <view class='show_msg_view'>
+      <text class='show_left'>保证金</text>
+      <text class='show_right'>{{deposit}}</text>
+    </view>
+    <view class='show_msg_view'>
+      <text class='show_left'>服务费</text>
+      <text class='show_right'>{{service}}</text>
+    </view>
+  </view>
+
+
+
+
+
+  <view class='msg_view'>
+    <text class='left'>月供</text>
+    <text class='right'>{{month_money}}</text>
+  </view>
+  <view class='msg_view'>
+    <text class='left'>期数</text>
+    <text class='right'>{{portion}}/{{overall}}</text>
+  </view>
+  <view id='bottom_view' />
+
+
+
+
+
+</view>

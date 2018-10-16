@@ -1,0 +1,17 @@
+<!--pages/problem/problem.wxml-->
+ <view class='topView'>
+  <view class='topList' wx:for="{{topList}}" wx:key="xx">
+    <button class='click' style='background-color:{{item.background}}' bindtap='btnClick' id='{{item.tag}}' >{{item.title}}</button>
+  </view> 
+</view> 
+
+ <view>
+  <view class='contentList' wx:for="{{contentList}}" wx:key="dd">
+    <view class='titleView'>
+      <text class='title'>{{item.title}}</text>
+    </view>
+    <view class='contentView'>
+      <text class='content'>{{item.content}}</text>
+    </view>
+  </view>
+</view> 

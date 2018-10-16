@@ -1,0 +1,4 @@
+/* pages/abourtus/abourtus.wxss */
+.bgImg{
+  width: 100%;
+}

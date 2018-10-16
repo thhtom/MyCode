@@ -1,0 +1,49 @@
+<!--logs.wxml-->
+<view>
+  <view class="section_view">
+    <view>
+      <text class='tv_msg'>姓名</text>
+    </view>
+    <input class='input' name="u_name" placeholder="请输入姓名" id="name" bindinput="name" />
+  </view>
+
+  <view class="section_view">
+    <view>
+      <text class='tv_msg'>手机号</text>
+    </view>
+    <input class='input' type="number" maxlength="11" name="u_phone" placeholder="请输入手机号" id="phone" bindinput="phone" />
+  </view>
+
+  <view class="section_view">
+    <view>
+      <text class='tv_msg'>预约时间</text>
+    </view>
+
+    <picker mode="date" start="2018-05-10" end="2100-01-01" bindchange="bindTimeChange">
+      <input class='input' disabled="true" value='{{input_time}}' name="u_time" placeholder="请选择日期" id="time" bindinput="time" />
+    </picker>
+
+  </view>
+
+  <view class="section_view">
+    <view>
+      <text class='tv_msg'>预约地点</text>
+    </view>
+
+
+    <picker bindchange="changeCountry"  value="{{countryIndex}}" range="{{countryList}}">
+      <input class="input" disabled="true" name="u_city" id="city" bindinput="city" value='{{countryList[region]}}' placeholder="请选择地点"/>
+    </picker>
+
+    <!-- <picker bindchange="bindCityChange" mode="region">
+      <input class="input" disabled="true" name="u_city" id="city" bindinput="city" value='{{region}}' placeholder="请选择地点" />
+    </picker> -->
+
+  </view>
+  <view id='view'/>
+
+  <view id='float_sub' bindtap='subscribe'>
+    <text>立即预约</text>
+  </view>
+
+</view>

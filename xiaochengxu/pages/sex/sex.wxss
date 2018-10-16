@@ -1,0 +1,7 @@
+/* pages/sex/sex.wxss */
+.save{
+  margin-top: 100rpx;
+  margin-left: 40rpx;
+  width: 670rpx;
+  background-color: rgb(255, 228, 1);
+}

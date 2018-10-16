@@ -1,0 +1,10 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='top'></view>
+<view class='bgView'>
+  <textarea class='input' type='text' placeholder='请输入反馈内容' bindinput='text'></textarea>
+</view>
+
+<view class='bottom'>
+  <button class='cancel' bindtap='cancelClick'>取消</button>
+  <button class='sure' bindtap='sureClick'>提交</button>
+</view>
