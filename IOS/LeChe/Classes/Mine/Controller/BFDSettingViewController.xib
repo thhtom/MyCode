@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BFDSettingViewController">
+            <connections>
+                <outlet property="headerView" destination="4E8-yq-Yl8" id="Mad-ru-2xe"/>
+                <outlet property="versionLabel" destination="0CI-5o-o9D" id="0gF-7V-43Z"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </view>
+        <view contentMode="scaleToFill" id="4E8-yq-Yl8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="218"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_mine" translatesAutoresizingMaskIntoConstraints="NO" id="4wj-cv-tJa">
+                    <rect key="frame" x="147.5" y="45" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="1Mg-Se-gZb"/>
+                        <constraint firstAttribute="width" constant="80" id="fxs-zT-yAn"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前版本V1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CI-5o-o9D">
+                    <rect key="frame" x="129.5" y="147" width="116" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jA-dR-Shb">
+                    <rect key="frame" x="0.0" y="208" width="375" height="10"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="hXd-jD-RqH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4wj-cv-tJa" firstAttribute="centerX" secondItem="4E8-yq-Yl8" secondAttribute="centerX" id="KDT-4l-hmq"/>
+                <constraint firstAttribute="bottom" secondItem="3jA-dR-Shb" secondAttribute="bottom" id="PsB-0b-XTk"/>
+                <constraint firstItem="0CI-5o-o9D" firstAttribute="top" secondItem="4wj-cv-tJa" secondAttribute="bottom" constant="22" id="UTE-ri-7gY"/>
+                <constraint firstItem="3jA-dR-Shb" firstAttribute="leading" secondItem="4E8-yq-Yl8" secondAttribute="leading" id="WEv-eN-6uM"/>
+                <constraint firstItem="4wj-cv-tJa" firstAttribute="top" secondItem="4E8-yq-Yl8" secondAttribute="top" constant="45" id="aFb-v9-QOR"/>
+                <constraint firstItem="0CI-5o-o9D" firstAttribute="centerX" secondItem="4E8-yq-Yl8" secondAttribute="centerX" id="c9r-VF-n5u"/>
+                <constraint firstAttribute="trailing" secondItem="3jA-dR-Shb" secondAttribute="trailing" id="cc3-Q6-C0A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-85.5" y="741"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_mine" width="92" height="92"/>
+    </resources>
+</document>

@@ -1,0 +1,59 @@
+//
+//  Header-Prefix.pch
+//  LeChe
+//
+//  Created by yangxuran on 2018/2/27.
+//  Copyright © 2018年 yangxuran. All rights reserved.
+//
+
+#ifndef Header_Prefix_pch
+#define Header_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "AccountTool.h"
+#import "BOCProgressHUD.h"
+#import <UIScrollView+EmptyDataSet.h>
+#import "ShowLoginManager.h"
+
+#import "UIImageView+WebCache.h"
+#import "NSString+Helper.h"
+#import "UIView+Extension.h"
+#import "UIView+ViewController.h"
+#import "UIButton+BackgroundColor.h"
+#import "NSObject+additions.h"
+#import "NSString+hash.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIAlertController+Extension.h"
+#import "UIControl+BlockEvent.h"
+#import "UIView+quick.h"
+#import "BaseView.h"
+#import "UIImage+other.h"
+#import "NSString+Size.h"
+#import "JKHttpRequestService.h"
+#import "NSString+Extension.h"
+#import "AppUtil.h"
+#import "UIViewController+Push.h"
+#import "UIViewController+Share.h"
+#import "BFDGifHeader.h"
+#import "QuickCreate.h"
+#import "UIButton+ChangePosition.h"
+#import "UIView+Gradient.h"
+
+#import "Constant.h"
+
+#import <UMCommon/UMCommon.h>
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wdocumentation"
+#pragma clang diagnostic ignored"-Wstrict-prototypes"
+
+#import <UMAnalytics/MobClick.h>
+
+#pragma clang diagnostic pop
+
+
+#endif /* Header_Prefix_pch */
